@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Microsoft Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-layout">
+        <nav>
+
+           <div class="left-content">
+            <img src="./assets/microsoft/microsoft-logo-dark-1.png" alt="">
+            <img src="./assets/microsoft/microsoft-logo-dark-2.png" alt="">
+           </div>
+           <div class="middle-content">
+            <div class="menu">
+                <div class="item"><a href="">Home</a></div>
+                <div class="item"><a href="">Apps</a></div>
+                <div class="item"><a href="">Games</a></div>
+                <div class="item"><a href="">Entertainment</a></div>
+            </div>
+           </div>
+           <div class="right-content">
+            <div class="flex-item">
+                <div class="mobile-search"><i class="bx bx-search"></i></div>
+
+                <div class="search-box">
+                    <div><i class="bx bx-search"></i></div>
+                    <input type="text" maxlength="75" placeholder="Search apps, games, movies, and more">
+                </div>
+               </div>
+
+            <div class="flex-item">
+             <button><img src="assets/microsoft/light-logo-32x32.svg" ><span>Open Store app</span></button>
+            </div>
+           </div>
+        </nav>
+    </div>
+    </header>
+    <div class="layout-container">
+        <main>
+            <div class="carousel">
+                <div class="slide">
+
+                    <div class="item" style="background-image: url('assets/carousal/best-entertaint.jpg');">
+                        <div class="content">
+                            <div class="name">Best entertainment apps</div>
+                            <div class="des">Enjoy hit movies, TV & music- anytime, anywhere</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/forza.jpg');">
+                        <div class="content">
+                            <div class="name">Forza motor sport standered edition</div>
+                            <div class="des">new track nordschleife has arrived</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/disney.jpeg');">
+                        <div class="content">
+                            <div class="name">Disney dreamlight valley</div>
+                            <div class="des">Meet Mike and Sulley</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/joinpcgames.jpg');">
+                        <div class="content">
+                            <div class="name">join PC game pass</div>
+                            <div class="des">Discover your next favorite game</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/office365.jpg');">
+                        <div class="content">
+                            <div class="name">Microsoft 365</div>
+                            <div class="des">Apps to manage the every day</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/avater.jpeg');">
+                        <div class="content">
+                            <div class="name">Master your element</div>
+                            <div class="des">Now streaming on Netflix</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/aqua.jpeg');">
+                        <div class="content">
+                            <div class="name">the tide is turning</div>
+                            <div class="des">Now for rent</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/napolean.jpeg');">
+                        <div class="content">
+                            <div class="name">Conquer everything</div>
+                            <div class="des">Available now on Apple TV +</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                    <div class="item" style="background-image: url('assets/carousal/ageofempires.jpg');">
+                        <div class="content">
+                            <div class="name">Age of Empires II: Definitive Edition</div>
+                            <div class="des">Lorem ipsum dolor sit amet...</div>
+                            <button><i class='bx bxs-right-arrow'></i> Get</button>
+                        </div>
+                        <div class="item-overlay"></div>
+                    </div>
+                </div>
+
+                <button class="navigation prev"><i class='bx bx-chevron-left'></i></button>
+                <button class="navigation next"><i class='bx bx-chevron-right'></i></button>
+
+            </div>
+
+            <div class="esssensial-apps">
+                <div class="header">
+                    <div class="section-title">
+                       <a href="#"> <span>Esssensial Apps </span><i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="btn-group">
+                        <button class="active">Apps</button>
+                        <button>Games</button>
+                        <button>Movies & TV</button>
+                    </div>
+                    
+                </div>
+                <div class="divider"></div>
+                <div class="items">
+                    <div class="card">
+                        <div class="app-logo">
+                            <img src="./assets/apps/tiktok.png">
+                        </div>
+                        <div class="desc">
+                            <span class="title">TikTok</span>
+                            <div class="rating">
+                                <span class="rating"><small>3.9 <i class='bx bxs-star'></i></small></span>
+                                <span class="category"><small> | Entertainment</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="app-logo">
+                            <img src="./assets/apps/acrobat.png" style="border-radius: 12px;">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Adobe Acrobat Reader DC</span>
+                            <div class="rating">
+                                <span class="rating"><small>3.9 <i class='bx bxs-star'></i></small></span>
+                                <span class="category"><small> | Productivity</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="app-logo">
+                            <img src="./assets/apps/linkdlen.png">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Linkdlen</span>
+                            <div class="rating">
+                                <span class="rating"><small>3.9 <i class='bx bxs-star'></i></small></span>
+                                <span class="category"><small> | Social</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="app-logo">
+                            <img src="./assets/apps/photoshp.png">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Adobe photoshop</span>
+                            <div class="rating">
+                                <span class="rating"><small>3.9 <i class='bx bxs-star'></i></small></span>
+                                <span class="category"><small> | Photo & video</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="app-logo">
+                            <img src="./assets/apps/dolby.png" style="border-radius: 12px;">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Dolby Access</span>
+                            <div class="rating">
+                                <span class="rating"><small>3.9 <i class='bx bxs-star'></i></small></span>
+                                <span class="category"><small> | Entertainment</small></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="app-logo">
+                            <img src="./assets/apps/top free.png" style="border-radius: 12px;">
+                        </div>
+                        <div class="desc">
+                            <span class="title">Animotica - Movie Maker</span>
+                            <div class="rating">
+                                <span class="rating"><small>3.9 <i class='bx bxs-star'></i></small></span>
+                                <span class="category"><small> | Photo & video</small></span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="music-streaming-apps">
+                <div class="section-title">
+                    <a>Music streaming apps <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/music/spotify.png">
+                        </div>
+                        <div class="desc">
+                            <span class="name">iTunes</span>
+                            <div class="badges">
+                                <div class="rating"><small>3.9 <i class='bx bxs-star'></i></small></div>
+                                <div class="category"><small>Free</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/music/itunes.png">
+                        </div>
+                        <div class="desc">
+                            <span class="name">iTunes</span>
+                            <div class="badges">
+                                <div class="rating"><small>3.9 <i class='bx bxs-star'></i></small></div>
+                                <div class="category"><small>Free</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/music/apple-music.png">
+                        </div>
+                        <div class="desc">
+                            <span class="name">iTunes</span>
+                            <div class="badges">
+                                <div class="rating"><small>3.9 <i class='bx bxs-star'></i></small></div>
+                                <div class="category"><small>Free</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/music/amazon.png">
+                        </div>
+                        <div class="desc">
+                            <span class="name">iTunes</span>
+                            <div class="badges">
+                                <div class="rating"><small>3.9 <i class='bx bxs-star'></i></small></div>
+                                <div class="category"><small>Free</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/music/pandora.png">
+                        </div>
+                        <div class="desc">
+                            <span class="name">iTunes</span>
+                            <div class="badges">
+                                <div class="rating"><small>3.9 <i class='bx bxs-star'></i></small></div>
+                                <div class="category"><small>Free</small></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/music/soundcloud.png">
+                        </div>
+                        <div class="desc">
+                            <span class="name">iTunes</span>
+                            <div class="badges">
+                                <div class="rating"><small>3.9 <i class='bx bxs-star'></i></small></div>
+                                <div class="category"><small>Free</small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new-movies">
+                <div class="section-title">
+                    <a>New Movies <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/movies/beekeeper.jpg">
+                        </div>
+                        <div class="overlay"
+                            style="background-image: linear-gradient(rgba(110,110,110,5), rgba(110,110,110,5)), url('assets/movies/beekeeper.jpg');">
+                        </div>
+                        <div class="desc">
+                            <div class="title"><span>The Beekeeper</span></div>
+                            <div class="rate-price">
+                                <div class="year"> <span><small>2024</small></span></div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/movies/wonka.jpg">
+                        </div>
+                        <div class="overlay"
+                            style="background-image: linear-gradient(rgba(110,110,110,5), rgba(110,110,110,5)), url('assets/movies/wonka.jpg');">
+                        </div>
+                        <div class="desc">
+                            <div class="title"><span>Wonka + Bonus Content</span></div>
+                            <div class="rate-price">
+                                <div class="year"> <span><small>2024</small></span></div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/movies/nowayup.jpg">
+                        </div>
+                        <div class="overlay"
+                            style="background-image: linear-gradient(rgba(110,110,110,5), rgba(110,110,110,5)), url('assets/movies/nowayup.jpg');">
+                        </div>
+                        <div class="desc">
+                            <div class="title"><span>No Way Up</span></div>
+                            <div class="rate-price">
+                                <div class="year"> <span><small>2024</small></span></div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/movies/aquaman.jpg">
+                        </div>
+                        <div class="overlay"
+                            style="background-image: linear-gradient(rgba(110,110,110,5), rgba(110,110,110,5)), url('assets/movies/aquaman.jpg');">
+                        </div>
+                        <div class="desc">
+                            <div class="title"><span>Aquaman and the Lost Kingdom + Bonus Content</span></div>
+                            <div class="rate-price">
+                                <div class="year"> <span><small>2024</small></span></div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/movies/migration.jpg">
+                        </div>
+                        <div class="overlay"
+                            style="background-image: linear-gradient(rgba(110,110,110,5), rgba(110,110,110,5)), url('assets/movies/migration.jpg');">
+                        </div>
+                        <div class="desc">
+                            <div class="title"><span>Migration</span></div>
+                            <div class="rate-price">
+                                <div class="year"> <span><small>2024</small></span></div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/movies/anyonebty.jpg">
+                        </div>
+                        <div class="overlay"
+                            style="background-image: linear-gradient(rgba(110,110,110,5), rgba(110,110,110,5)), url('assets/movies/anyonebty.jpg');">
+                        </div>
+                        <div class="desc">
+                            <div class="title"><span>Anyone But You</span></div>
+                            <div class="rate-price">
+                                <div class="year"> <span><small>2024</small></span></div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weekly-deals">
+                <div class="section-title">
+                    <a>Weekly Deals <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="container">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/weekly-deals/aplague.jpeg">
+                        </div>
+                        <div class="desc">
+                            <h4 class="title">A Plague Tale Bundle (PC)</h4>
+                            <p class="two-lines-wrap">A Plague Tale Bundle includes the entirety of Amicia and Hugo’s
+                                heartrending journey through the darkest hours of history at a reduced price, with the
+                                two acclaimed games A Plague Tale: Innocence and its sequel A Plague Tale: Requiem.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/weekly-deals/atomic.jpeg">
+                        </div>
+                        <div class="desc">
+                            <h4 class="title">A Plague Tale Bundle (PC)</h4>
+                            <p class="two-lines-wrap">The Premium Edition includes the base game Atomic Heart, the
+                                Atomic Pass, two unique weapon skins and a digital artbook.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./assets/weekly-deals/insurgency.jpeg">
+                        </div>
+                        <div class="desc">
+                            <h4 class="title">A Plague Tale Bundle (PC)</h4>
+                            <p class="two-lines-wrap">Insurgency: Sandstorm Gold Edition includes:
+                                • Base game
+                                • Year 1 Pass: 16 cosmetics sets
+                                • Year 2 Pass: 4 instantly unlocked reward items and 16 cosmetic sets</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-selling">
+                <div class="movies">
+                    <div class="header">
+                        <a>Top-selling movies <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="grid-container">
+                        <div class="card">
+                            <div class="movie-poster">
+                                <img src="./assets/movies/beekeeper.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>The Beekeeper</span></div>
+                                    <div class="year"> <span><small>2024</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="movie-poster">
+                                <img src="./assets/movies/hunder.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>The Hunger Games: The Ballad of Songbirds and Snakes</span>
+                                    </div>
+                                    <div class="year"> <span><small>2024</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="movie-poster">
+                                <img src="./assets/movies/nowayup.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>No Way UP</span></div>
+                                    <div class="year"> <span><small>2024</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="movie-poster">
+                                <img src="./assets/movies/aquaman.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>Aquaman and the Lost Kingdom + Bonus Conten</span></div>
+                                    <div class="year"> <span><small>2024</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="movie-poster">
+                                <img src="./assets/movies/anyonebty.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>Anyone But You</span></div>
+                                    <div class="year"> <span><small>2024</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="movie-poster">
+                                <img src="./assets/movies/wonka.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>Wonka + Bonus Content</span></div>
+                                    <div class="year"> <span><small>2024</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Starts at $19.99</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tv-shows">
+                    <div class="header">
+                        <a>Top-selling TV shows <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="grid-container">
+                        <div class="card">
+                            <div class="tv-poster">
+                                <img src="./assets/tv-shows/wd.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>Fear the Walking Dead</span></div>
+                                    <div class="seasons-category"> <span><small>8 seasons | Drama</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Buy or stream</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tv-poster">
+                                <img src="./assets/tv-shows/wdtol.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>The Walking Dead: The Ones Who Live</span></div>
+                                    <div class="seasons-category"> <span><small>8 seasons | Drama</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Buy or stream</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tv-poster">
+                                <img src="./assets/tv-shows/battle-star.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>Battlestar Galactica: Complete Series</span></div>
+                                    <div class="seasons-category"> <span><small>1 season | Other</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Buy or stream</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tv-poster">
+                                <img src="./assets/tv-shows/bleach.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>BLEACH: Thousand-Year Blood War (English)</span></div>
+                                    <div class="seasons-category"> <span><small>2 seasons | Anime</small></span></div>
+                                </div>
+                                <div class="pricing"><span><small>Buy or stream</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tv-poster">
+                                <img src="./assets/tv-shows/berserk.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>
+                                            Berserk: The Golden Age Arc - Memorial Edition (Simuldub)</span></div>
+                                    <div class="seasons-category"> <span><small>1 season | Animation</small></span>
+                                    </div>
+                                </div>
+                                <div class="pricing"><span><small>Buy or stream</small></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="tv-poster">
+                                <img src="./assets/tv-shows/berserk-org.jpg">
+                            </div>
+                            <div class="desc">
+                                <div class="title-year">
+                                    <div class="title"><span>Berserk: The Golden Age Arc - Memorial Edition (Original
+                                            Japanese Version)</span></div>
+                                    <div class="seasons-category"> <span><small>1 season | Animation</small></span>
+                                    </div>
+                                </div>
+                                <div class="pricing"><span><small>Buy or stream</small></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collection">
+                <div class="card">
+                    <div class="card-header">
+                        <p class="title">Top selling Movies</p>
+                        <h1 class="caption">Experience the Adrinaline</h1>
+                    </div>
+                    <div class="gallery">
+                        <div class="item">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets//movies/aquaman.jpg">
+                            <img src="./assets//movies/migration.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets//movies/aquaman.jpg">
+                            <img src="./assets//movies/migration.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/movies/hunder.jpg">
+                            <img src="./assets/movies/nowayup.jpg">
+                            <img src="./assets/movies/wonka.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets//movies/aquaman.jpg">
+                            <img src="./assets//movies/migration.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets//movies/aquaman.jpg">
+                            <img src="./assets//movies/migration.jpg">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="title">Top selling Movies</p>
+                        <h1 class="caption">Experience the Adrinaline</h1>
+                    </div>
+                    <div class="gallery">
+                        <div class="item">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/aquaman.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/aquaman.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/movies/hunder.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/aquaman.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/aquaman.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <p class="title">Top selling Movies</p>
+                        <h1 class="caption">Experience the Adrinaline</h1>
+                    </div>
+                    <div class="gallery">
+                        <div class="item">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/aquaman.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                            <img src="./assets/movies/hunder.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/movies/hunder.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/aquaman.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                        </div>
+                        <div class="item">
+                            <img src="./assets/movies/beekeeper.jpg">
+                            <img src="./assets/movies/aquaman.jpg">
+                            <img src="./assets/movies/migration.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                            <img src="./assets/movies/anyonebty.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured">
+                <div class="section-title">
+                    <a>Colllections <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+                <div class="card-group">
+                    <div class="card" style="background-image: url('./assets/collections/best-ent.jpeg');">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <div class="title">
+                                <h1>Best Entertainment Apps</h1>
+                            </div>
+                            <div class="desc">
+                                Enjoy hit movies, TV & music - anytime,anywhere
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="background-image: url('./assets/collections/featured-games.jpeg');">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <div class="title">
+                                <h1>Best Entertainment Apps</h1>
+                            </div>
+                            <div class="desc">
+                                Enjoy hit movies, TV & music - anytime,anywhere
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="background-image: url('./assets/collections/image.jpeg');">
+                        <div class="overlay"></div>
+                        <div class="content">
+                            <div class="title">
+                                <h1>Best Entertainment Apps</h1>
+                            </div>
+                            <div class="desc">
+                                Enjoy hit movies, TV & music - anytime,anywhere
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="primary-menu">
+                <div class="menu-group">
+                    <div class="menu-item title">
+                        <h1>What's New</h1>
+                    </div>
+                    <div class="menu-item"><a href="#">More content in Microsoft Store</a></div>
+                    <div class="menu-item"><a href="#">Apps</a></div>
+                    <div class="menu-item"><a href="#">Games</a></div>
+                    <div class="menu-item"><a href="#">Movies & TV</a></div>
+                    <div class="menu-item"><a href="#">Windows Experience Blog</a></div>
+                </div>
+                <div class="menu-group">
+                    <div class="menu-item title">
+                        <h1>Microsoft Store</h1>
+                    </div>
+                    <div class="menu-item"><a href="#">Microsoft account</a></div>
+                    <div class="menu-item"><a href="#">Microsoft Store support</a></div>
+                    <div class="menu-item"><a href="#">Returns</a></div>
+                    <div class="menu-item"><a href="#">Flexible payments</a></div>
+                    <div class="menu-item"><a href="#">Policies and Code of Conduct</a></div>
+                </div>
+                <div class="menu-group">
+                    <div class="menu-item title">
+                        <h1>For Developers</h1>
+                    </div>
+                    <div class="menu-item"><a href="#">Publish your app</a></div>
+                    <div class="menu-item"><a href="#">Advertise with us</a></div>
+                    <div class="menu-item"><a href="#">Generate your app badge</a></div>
+                </div>
+                <div class="menu-group">
+                    <div class="menu-item title">
+                        <h1>Windows</h1>
+                    </div>
+                    <div class="menu-item"><a href="#">Careers</a></div>
+                    <div class="menu-item"><a href="#">About Microsoft</a></div>
+                    <div class="menu-item"><a href="#">Company news</a></div>
+                    <div class="menu-item"><a href="#">Investors</a></div>
+                    <div class="menu-item"><a href="#">Diversity & inclusion</a></div>
+                    <div class="menu-item"><a href="#">Accessibility</a></div>
+                    <div class="menu-item"><a href="#">Sustainability</a></div>
+                </div>
+            </div>
+
+
+            <div class="secondary-menu">
+                <div class="privacy-choice">
+
+                    <a href="">
+                        <img src="./assets/icons/privacyoptions.svg">
+                        Your privacy choice
+                    </a>
+                </div>
+                <div class="menu-group">
+                    <div class="menu-item"><a href="#">Contact Microsoft</a></div>
+                    <div class="menu-item"><a href="#">Privacy</a></div>
+                    <div class="menu-item"><a href="#">Terms of use</a></div>
+                    <div class="menu-item"><a href="#">Trademarks</a></div>
+                    <div class="menu-item"><a href="#">Safety & eco</a></div>
+                    <div class="menu-item"><a href="#">Recycling</a></div>
+                    <div class="menu-item"><a href="#">About our ads</a></div>
+                    <div class="menu-item">
+                        <p>&copy Microsoft 2023</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
